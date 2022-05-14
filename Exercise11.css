@@ -1,0 +1,129 @@
+* {
+  box-sizing:border-box;
+}
+
+.box1 {
+  background-color: #ffff99;
+  background-image: url("C:/Users/claudio/Desktop/photo1.jpg");
+   background-size: cover;
+    padding:20px;
+	height:180px;
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.box2 {
+  background-color:#ffff59;
+  background-image: url("C:/Users/claudio/Desktop/photo2.jpg");
+   background-size: cover;
+  height:180px;
+  padding:20px;
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.box3 {
+  background-color:#FFDF00;
+  background-image: url("C:/Users/claudio/Desktop/photo3.jpg");
+   background-size: cover;
+  height:200px;
+  padding:20px;
+  float:left;
+  width:100%;
+  text-align: center;
+}
+
+.box4 {
+  background-color: #F0E68C;
+  background-image: url("C:/Users/claudio/Desktop/photo4.jpg");
+   background-size: cover;
+  padding:20px;
+  height:150px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.box5 {
+  background-color: #ffffcc;
+  background-image: url("C:/Users/claudio/Desktop/photo5.jpg");
+  background-size: cover;
+  height:150px;
+  padding:20px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.box6 {
+  background-color: #ffffa6;
+  background-image: url("C:/Users/claudio/Desktop/photo6.jpg");
+   background-size: cover;
+  height:150px;
+  padding:20px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.box7 {
+  background-color:  #ffff26;
+  background-image: url("C:/Users/claudio/Desktop/photo7.jpg");
+ background-size: cover;
+  height:100px;
+  padding:20px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+.box8 {
+  background-color:#D4AF37;
+  background-image: url("C:/Users/claudio/Desktop/photo8.jpg");
+ background-size: cover;
+  height:100px;
+  padding:20px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+.box9 {
+  background-color:#ffffbf;
+  background-image: url("C:/Users/claudio/Desktop/photo9.jpg");
+ background-size: cover;
+  height:100px;
+  padding:20px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+.box10 {
+  background-color: #ffff73;
+  background-image: url("C:/Users/claudio/Desktop/photo10.jpg");
+ background-size: cover;
+  height:100px;
+  padding:20px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+  .box1, .box2, .box3 {
+    width:100%; 
+  }
+  
+@media screen and (max-width:768px) {
+  .box4, .box5, .box6 {
+    width:100%;  }
+	.col-s-5 {width: 50%;}
+  }
+  
+@media screen and (max-width:320px) {
+  .box7, .box8, .box9, .box10 {
+    width:100%; 
+  }
+}
